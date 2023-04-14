@@ -56,7 +56,18 @@ body {
   margin-left: 1%;
   margin-right: 1%;
 }
-
+.nav-scrolled {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgba(0, 0, 0);
+  height: 90px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
 .logo {
   display: flex;
   align-items: center;

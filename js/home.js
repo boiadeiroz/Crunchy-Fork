@@ -6,21 +6,9 @@ setTimeout(function(){
 
 //scroll bar
 
-  $(document).ready(function(){
-    $("a").on('click', function(event) {
-      if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-        $('body,html').animate({
-        scrollTop: $(hash).offset().top
-        }, 1200, function(){
-        window.location.hash = hash;
-       });
-       } 
-      });
-  });
+
   
-  var width = $(window).width(); 
+  var width = (window).width(); 
   
   window.onscroll = function(){
   if ((width >= 900)){
@@ -32,4 +20,3 @@ setTimeout(function(){
   }
   };
 
-//Anime list
